@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes> <!-- When adding a spawnable types into a folder and its a new file, it must have <spawnabletypes> at the top and </spawnabletypes> at the bottom!-->
+<!-- 
+	Below is an example of spawnabletypes, they are utilized as an event for weapons, vehicles, etc. 
+	This gives them a probability to spawn with certain parts, scopes and what not.
+	All spawnabletypes follow this format.
+	<type name="Hoot out here helping all of you ;) <3 "> 
+		<attachments chance="0.25">
+			<item name="Example" chance="0.06" />
+			<item name="Example" chance="0.06" />
+			<item name="Example" chance="0.06" />
+		</attachments>
+	</type> 
+	
+	-->
+<!-- Information IF you are ever wanting to remove something, instead of "deleting it" use this (the arrows) these are called commentary marks and they save you time and headaches.-->
+</spawnabletypes>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+	<classes>
+<!--
+These are rootclasses to be used by economy.
+Do not forget to add attribute act="character", if root class represents character (player, infected, animal)
+Do not forget to add attribute act="car", if root class represents moveable vehicles
+-->
+		<rootclass name="DefaultWeapon" /> <!-- weapons -->
+		<rootclass name="DefaultMagazine" /> <!-- magazines -->
+		<rootclass name="Inventory_Base" /> <!-- inventory items -->
+		<rootclass name="HouseNoDestruct" reportMemoryLOD="no" /> <!-- houses, wrecks -->
+		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" /> <!-- player characters -->
+		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" /> <!-- infected, animals -->
+		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+	</classes> 
+	<!-- Try and keep CE within -->
+
+<!-- 
+		Example area, if you don't want to lose this, save this file somewhere that you can reference later. When you are ready, remove this example area so its not in your way.
+		
+		<ce folder="snafu_ce"> This allows you to have a seperate folder within dayzOffline.chernarus but can be used for other missions as well.
+
+ 		<file name="SNAFU_types.xml" type="types"/>This is a types file, remember every types file must have a <types> at the top and </types> are the bottom.
+
+		<file name="snafuspawnabletypes25percent.xml" type="spawnabletypes"/> If you want to keep your spawnable types along with that mod / folder you are able to use this.
+
+		</ce>  Each folder needs a <ce folder="Foldername"> along with </ce> to close out the folder.
+		Below is an example of how you would want it to look.
+-->
+	<ce folder="example_mod">
+		<file name="example_types" type="types"/>
+		<file name="example_spawnabletypes.xml" type="spawnabletypes"/>
+	</ce>
+	<!-- CE End Here! -->
+	<defaults>
+		<default name="dyn_radius" value="30" />
+		<default name="dyn_smin" value="0" />
+		<default name="dyn_smax" value="0" />
+		<default name="dyn_dmin" value="1" />
+		<default name="dyn_dmax" value="5" />
+		<default name="log_ce_loop" value="false"/>
+		<default name="log_ce_dynamicevent" value="false"/>
+		<default name="log_ce_vehicle" value="false"/>
+		<default name="log_ce_lootspawn" value="false"/>
+		<default name="log_ce_lootcleanup" value="false"/>
+		<default name="log_ce_lootrespawn" value="false"/>
+		<default name="log_ce_statistics" value="false"/>
+		<default name="log_ce_zombie" value="false"/>
+		<default name="log_storageinfo" value="false"/>
+		<default name="log_hivewarning" value="true"/>
+		<default name="log_missionfilewarning" value="true"/>
+		<default name="save_events_startup" value="true"/>
+		<default name="save_types_startup" value="true"/>
+	</defaults>
+</economycore>
