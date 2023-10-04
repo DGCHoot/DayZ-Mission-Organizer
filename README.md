@@ -6,17 +6,20 @@ Hello and thank you for taking the time to open this and come to my github to pu
 Inside this folder contains all the files you will need for a chernarusplus map, the same concept is applicable for all other missions.
 
 # Open the folder
-    Start with cfgeconomycore.xml this is your first stop and will be your last stop on the way out, you always doublecheck the econ core.
-    Ensure you stay within the "bumpers" 	<!-- Try and keep CE within --> & 	<!-- CE End Here! -->
-    CE stands for Central Economy, the system that Bohemia uses.
+
+Start with cfgeconomycore.xml this is your first stop and will be your last stop on the way out, you always doublecheck the econ core.
+Ensure you stay within the "bumpers" 	<!-- Try and keep CE within --> & <!-- CE End Here! -->
+CE stands for Central Economy, the system that Bohemia uses.
 
 # Creating a folder
-    You can name the folder whatever you want, aslong as it resides within your mission.
-    Notate or edit the economycore.xml to reflect the changes within cfgeconomycore.xml
+
+You can name the folder whatever you want, aslong as it resides within your mission.
+Notate or edit the economycore.xml to reflect the changes within cfgeconomycore.xml
 
 # Creating a file
-    Ensure you always start your files with <types> and </types> when you are finished, things to note, there are only every 2 of those on types xml documents.
-    Understand that you can have different types within your folder let alone other types.xml.
+
+Ensure you always start your files with <types> and </types> when you are finished, things to note, there are only every 2 of those on types xml documents.
+Understand that you can have different types within your folder let alone other types.xml.
 **Make sure you validate before closing this document, go to the utilities section if you havent.**
 
 # Review
@@ -31,11 +34,11 @@ Inside this folder contains all the files you will need for a chernarusplus map,
 
 
 # Utilities
-    Get yourself Visual Studio Code.
-        https://code.visualstudio.com/download
+Get yourself Visual Studio Code.
+    https://code.visualstudio.com/download
     
-    Get yourself the XML Validator.
-        https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml
+Get yourself the XML Validator.
+    https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml
 
 
 
