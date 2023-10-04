@@ -5,6 +5,43 @@ This is a template for my fellow gamers and server owners out there who want to 
 Hello and thank you for taking the time to open this and come to my github to pursue a better more organized mission!
 Inside this folder contains all the files you will need for a chernarusplus map, the same concept is applicable for all other missions.
 
+## Overview of variates of .XML within Dayz
+# attributes 
+defines the type of given xml, can be one of the following:
+
+
+# types <types> </types>
+    interprets file as types.xml
+    This is what balances your stuff.
+This can be created from scratch, all you need is the mod's class IDs and lift off.
+
+# spawnabletypes <spawnabletypes> </spawnabletypes>
+    interprets file as cfgspawnabletypes.xml
+    This helps your weapons and spawns with variety and variation.
+When you create a CE folder, its typically a good thing to put the mods spawnable types in there.
+
+# globals <globals> </globals>
+    interprets file as globals.xml
+    Don't mess with this unless you know what you are doing.
+Don't mess with this until your older. I mean more informed on how to do things.
+
+# economy <economy> </economy>
+    interprets file as economy.xml
+    Don't mess with this if you do not know what you are doing.
+Don't mess with this until your older. I mean more informed on how to do things.
+
+# events <events> </events>
+    interprets file as events.xml
+
+Use this if you wish to add custom vehicle events.
+This is typically used with modded or custom vehicles, 
+however you can split up the db folders events into a more organized.
+You are able to put wrecks, and all sorts of things, I suggest looking up tutorials.
+
+# messages <messages> </messages>
+    interprets file as messages.xml
+    Don't ... just don't ... use this... get a mod for this...
+
 # Open the folder
 
 Start with cfgeconomycore.xml this is your first stop and will be your last stop on the way out, you always doublecheck the econ core.
@@ -42,14 +79,8 @@ Get yourself the XML Validator.
 
 
 
-## __Information from Bohemia__
-**type** attribute defines the type of given xml, can be one of the following:
-**types** - interprets file as types.xml
-**spawnabletypes** - interprets file as cfgspawnabletypes.xml
-**globals** - interprets file as globals.xml
-**economy** - interprets file as economy.xml
-**events** - interprets file as events.xml
-**messages** - interprets file as messages.xml
+
+
 
 https://community.bistudio.com/wiki/DayZ:Central_Economy_mission_files_modding
 
