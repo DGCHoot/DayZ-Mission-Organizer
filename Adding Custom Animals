@@ -1,6 +1,10 @@
 This is the full path you need to go for custom animal and you want thier own events and such.
+
+
+========================DO NOT USE THIS AREA========================
 Filepath
 db/events.xml
+============================EXAMPLES ONLY===========================
 <event name="ExampleHoot"> <!-- This is an example -->
         <nominal>8</nominal>
         <min>4</min>
@@ -21,8 +25,11 @@ db/events.xml
 </event>
 
 
+
+========================DO NOT USE THIS AREA========================
 Filepath
 db/types.xml
+============================EXAMPLES ONLY===========================
     <type name="Animal_Hoot"> <!-- Inherited from Mods -->
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
@@ -44,12 +51,21 @@ db/types.xml
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 
+
+
+========================DO NOT USE THIS AREA========================
 Filepath
 mission\cfgeventspawns.xml
+============================EXAMPLES ONLY===========================
     <event name="ExampleHoot" /> <!-- Add this next to <event name="wolf"/> this is also Inherited from events.xml -->
 
+
+
+
+========================DO NOT USE THIS AREA========================
 Filepath
 mission\cfgenvironment.xml
+============================EXAMPLES ONLY===========================
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <env>
 
@@ -58,8 +74,11 @@ mission\cfgenvironment.xml
 		<file path="env/hoot_territories.xml" /> <!-- Add this somewhere safely -->
 
 
+
+========================DO NOT USE THIS AREA========================
 filepath
 env/*animal_territories.xml
+============================EXAMPLES ONLY===========================
 Be warned this can make or break your animal spawns. copy / paste one of your original xmls.
 
     <territory color="4291611852">
