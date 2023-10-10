@@ -1,4 +1,4 @@
-
+This is the full path you need to go for custom animal and you want thier own events and such.
 Filepath
 db/events.xml
 <event name="ExampleHoot"> <!-- This is an example -->
