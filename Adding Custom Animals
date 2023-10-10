@@ -1,0 +1,77 @@
+
+Filepath
+db/events.xml
+<event name="ExampleHoot"> <!-- This is an example -->
+        <nominal>8</nominal>
+        <min>4</min>
+        <max>6</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_Hoot"/> <!-- Inherited from Types.xml -->
+            <child lootmax="0" lootmin="0" max="4" min="0" type="Animal_Hoot2"/> <!-- Inherited from Types.xml -->
+        </children>
+</event>
+
+
+Filepath
+db/types.xml
+    <type name="Animal_Hoot"> <!-- Inherited from Mods -->
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Animal_Hoot2"> <!-- Inherited from Mods -->
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+
+Filepath
+mission\cfgeventspawns.xml
+    <event name="ExampleHoot" /> <!-- Add this next to <event name="wolf"/> this is also Inherited from events.xml -->
+
+Filepath
+mission\cfgenvironment.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<env>
+
+	<!-- GENERAL Territories Section -->
+	<territories>
+		<file path="env/hoot_territories.xml" /> <!-- Add this somewhere safely -->
+
+
+filepath
+env/*animal_territories.xml
+Be warned this can make or break your animal spawns. copy / paste one of your original xmls.
+
+    <territory color="4291611852">
+        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="4822.5" z="13657.5" r="60"/>
+        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="4897.5" z="13815" r="60"/>
+        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="6030" z="13485" r="45"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="6997.5" z="12127.5" r="232.5"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="7477.5" z="11970" r="180"/>
+        <zone name="HuntingGround" smin="0" smax="0" dmin="0" dmax="0" x="6960" z="12105" r="292.5"/>
+        <zone name="HuntingGround" smin="0" smax="0" dmin="0" dmax="0" x="7462.5" z="11970" r="217.5"/>
+        <zone name="HuntingGround" smin="0" smax="0" dmin="0" dmax="0" x="6457.5" z="12210" r="210"/>
+        <zone name="HuntingGround" smin="0" smax="0" dmin="0" dmax="0" x="5415" z="13387.5" r="172.5"/>
+        <zone name="HuntingGround" smin="0" smax="0" dmin="0" dmax="0" x="7612.5" z="11137.5" r="157.5"/>
+    </territory>
+
