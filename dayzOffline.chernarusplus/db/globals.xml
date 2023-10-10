@@ -28,6 +28,6 @@
     <var name="TimeLogout" type="0" value="0"/>
     <var name="TimePenalty" type="0" value="0"/>
     <var name="WorldWetTempUpdate" type="0" value="1"/>
-    <var name="ZombieMaxCount" type="0" value="0"/>
-    <var name="ZoneSpawnDist" type="0" value="0"/>
+    <var name="ZombieMaxCount" type="0" value="0"/> <!-- This is here you adjust your zombies MAX on the map -->
+    <var name="ZoneSpawnDist" type="0" value="0"/> <!-- This is here you adjust your zombies spawn range -->
 </variables>
