@@ -15,8 +15,8 @@ db/events.xml
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_Hoot"/> <!-- Inherited from Types.xml -->
-            <child lootmax="0" lootmin="0" max="4" min="0" type="Animal_Hoot2"/> <!-- Inherited from Types.xml -->
+            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_Hoot"/> <!-- Inherited from Modded File Types.xml -->
+            <child lootmax="0" lootmin="0" max="4" min="0" type="Animal_Hoot2"/> <!-- Inherited from Modded File Types.xml -->
         </children>
 </event>
 
